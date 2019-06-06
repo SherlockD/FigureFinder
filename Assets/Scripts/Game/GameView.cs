@@ -82,6 +82,7 @@ public class GameView : MonoBehaviour
    {
       Debug.Log("False");
       SetErrorPanel();
+      this.enabled = false;
    }
 
    private void SetErrorPanel()
